@@ -11,9 +11,10 @@ int main()
   
  nPt = nums; // store address of nums[0] in nPt
 
-for ( int i = 0; i <= NUMS; i++){
+for ( int i = 0; i < NUMS; i++){
   total += *nPt++;
- cout << "The total of the array elements is " << total << endl;
- return 0;
+ 
   }
+  cout << "The total of the array elements is " << total << endl;
+ return 0;
   }
