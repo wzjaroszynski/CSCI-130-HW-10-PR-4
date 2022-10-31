@@ -10,8 +10,10 @@ int main()
  int total = 0, *nPt;
   
  nPt = nums; // store address of nums[0] in nPt
- while (nPt < nums + NUMS)
- total += *nPt++;
+
+for ( int i = 0; i <= NUMS; i++){
+  total += *nPt++;
  cout << "The total of the array elements is " << total << endl;
  return 0;
+  }
   }
